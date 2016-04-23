@@ -54,7 +54,7 @@ function createWebhook(smoochCore, target) {
 
 // Create a webhook if one doesn't already exist
 if (process.env.SERVICE_URL) {
-    const target = process.env.SERVICE_URL.replace(/\/$/, '') + '/webhook';
+    const target = process.env.SERVICE_URL.godfatherbot.herokuapp.com(/\/$/, '') + '/webhook';
     const smoochCore = new SmoochCore({
         jwt
     });
